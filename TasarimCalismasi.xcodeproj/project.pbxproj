@@ -11,6 +11,7 @@
 		657522BE2C2190470024F27F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657522BD2C2190470024F27F /* ContentView.swift */; };
 		657522C02C2190470024F27F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657522BF2C2190470024F27F /* Assets.xcassets */; };
 		657522C32C2190470024F27F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657522C22C2190470024F27F /* Preview Assets.xcassets */; };
+		65A59C762C21EBDA009B4657 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65A59C742C21EBDA009B4657 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		657522BD2C2190470024F27F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		657522BF2C2190470024F27F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		657522C22C2190470024F27F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65A59C752C21EBDA009B4657 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		65A59C772C21EC2F009B4657 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,7 @@
 			children = (
 				657522BB2C2190470024F27F /* TasarimCalismasiApp.swift */,
 				657522BD2C2190470024F27F /* ContentView.swift */,
+				65A59C742C21EBDA009B4657 /* Localizable.strings */,
 				657522BF2C2190470024F27F /* Assets.xcassets */,
 				657522C12C2190470024F27F /* Preview Content */,
 			);
@@ -109,6 +113,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 657522AF2C2190470024F27F;
 			productRefGroup = 657522B92C2190470024F27F /* Products */;
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				657522C32C2190470024F27F /* Preview Assets.xcassets in Resources */,
+				65A59C762C21EBDA009B4657 /* Localizable.strings in Resources */,
 				657522C02C2190470024F27F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,12 +150,25 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		65A59C742C21EBDA009B4657 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A59C752C21EBDA009B4657 /* en */,
+				65A59C772C21EC2F009B4657 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		657522C42C2190470024F27F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -213,6 +232,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -275,6 +295,7 @@
 				DEVELOPMENT_TEAM = 2BJUT72GH8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Drac;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +325,7 @@
 				DEVELOPMENT_TEAM = 2BJUT72GH8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Drac;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
